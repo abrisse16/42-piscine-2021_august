@@ -1,0 +1,5 @@
+Credentials cache: API:DF362F46-F01C-47FE-9E51-AE23413B0F61
+        Principal: abrisse@42.FR
+
+  Issued                Expires               Principal
+Aug  2 12:21:29 2021  Aug  9 12:21:18 2021  krbtgt/42.FR@42.FR

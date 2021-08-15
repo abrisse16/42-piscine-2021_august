@@ -6,11 +6,11 @@
 /*   By: abrisse <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/11 14:42:21 by abrisse           #+#    #+#             */
-/*   Updated: 2021/08/13 10:11:45 by abrisse          ###   ########.fr       */
+/*   Updated: 2021/08/14 13:59:33 by abrisse          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	char_is_whitespac(char c)
+int	char_is_whitespace(char c)
 {
 	return (c == '\t' || c == '\n' || c == '\v'
 		|| c == '\f' || c == '\r' || c == ' ');
@@ -23,6 +23,7 @@ int	ft_atoi(char *str)
 	int	value;
 
 	i = 0;
+	sign = 1;
 	while (char_is_whitespace(str[i]))
 		i++;
 	while (str[i] == '+' || str[i] == '-')

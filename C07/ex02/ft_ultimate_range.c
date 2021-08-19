@@ -6,11 +6,13 @@
 /*   By: abrisse <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/16 14:44:38 by abrisse           #+#    #+#             */
-/*   Updated: 2021/08/18 22:44:15 by abrisse          ###   ########.fr       */
+/*   Updated: 2021/08/19 01:54:29 by abrisse          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_utlimate_range(int **range, int min, int max)
+#include <stdlib.h>
+
+int	ft_ultimate_range(int **range, int min, int max)
 {
 	int	i;
 
@@ -25,7 +27,7 @@ int	ft_utlimate_range(int **range, int min, int max)
 	i = 0;
 	while (i < max - min)
 	{
-		(*range)[i] = min + 1;
+		(*range)[i] = min + i;
 		i++;
 	}
 	return (i);

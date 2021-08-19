@@ -6,12 +6,11 @@
 /*   By: abrisse <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/18 11:34:56 by abrisse           #+#    #+#             */
-/*   Updated: 2021/08/18 22:47:22 by abrisse          ###   ########.fr       */
+/*   Updated: 2021/08/19 01:58:31 by abrisse          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include <stdio.h>
 
 int	ft_strlen(char *str);
 int	valid_base( char *base);

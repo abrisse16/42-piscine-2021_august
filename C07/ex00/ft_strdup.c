@@ -6,9 +6,11 @@
 /*   By: abrisse <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/16 14:28:18 by abrisse           #+#    #+#             */
-/*   Updated: 2021/08/18 15:09:07 by abrisse          ###   ########.fr       */
+/*   Updated: 2021/08/19 01:56:16 by abrisse          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdlib.h>
 
 static int	ft_strlen(char *str)
 {

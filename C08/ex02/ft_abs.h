@@ -6,11 +6,11 @@
 /*   By: abrisse <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 13:30:31 by abrisse           #+#    #+#             */
-/*   Updated: 2021/08/20 13:30:34 by abrisse          ###   ########.fr       */
+/*   Updated: 2021/08/23 13:11:23 by abrisse          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_ABS_H
 # define FT_ABS_H
-# define ABS(x) ((x >= 0) ? X : -X)
+# define ABS(x) (((x) >= 0) ? (x) : -(x))
 #endif

@@ -6,7 +6,7 @@
 /*   By: abrisse <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/07 19:39:09 by abrisse           #+#    #+#             */
-/*   Updated: 2021/08/08 09:16:10 by abrisse          ###   ########.fr       */
+/*   Updated: 2021/08/26 18:21:40 by abrisse          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,9 +63,10 @@ void	ft_print_combn(int n)
 	while (++i <= 10 - n)
 		ft_print_combn_aux(n - 1, i, i, i == 0);
 }
-
+/*
 int main(void)
 {
 	ft_print_combn(4);
 	return 0;
 }
+*/
